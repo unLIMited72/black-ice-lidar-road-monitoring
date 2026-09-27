@@ -1,6 +1,6 @@
 # Separating Geometry, Measurement Uncertainty, and Return Observability in LiDAR-Based Black-Ice Road Monitoring: A Simulation Study
 
-Prepared local release package; not yet publicly released. Package version: `v1.0-submission`. Author-controlled software/model is licensed under MIT; author-controlled data, original documentation and assets under CC BY 4.0 with the boundaries in [LICENSE](LICENSE) and [license scope](docs/LICENSE_SCOPE.md). Repository location prepared for release: https://github.com/unLIMited72/black-ice-lidar-road-monitoring (currently PRIVATE; public release pending).
+Repository status: PUBLIC. Zenodo archival record: PUBLISHED on 2026-09-27. Package version: `v1.0-submission`. Author-controlled software/model is licensed under MIT; author-controlled data, original documentation and assets under CC BY 4.0 with the boundaries in [LICENSE](LICENSE) and [license scope](docs/LICENSE_SCOPE.md). Repository: https://github.com/unLIMited72/black-ice-lidar-road-monitoring.
 
 ## Overview
 
@@ -19,7 +19,7 @@ This simulation sensitivity study separates layer geometry, measurement/referenc
 
 MATLAB R2024a Update 9 / Simulink 24.1 are the historically recorded proprietary runtime; they are not distributed or licensed by this package. Python plotting requires NumPy and Matplotlib; extraction also requires pandas. See [environment](environment/README.md) and [reproduction](reproduction/README.md).
 
-From this repository root, `python3 reproduction/verify_package.py` checks shipped bytes, paths and source syntax without simulation or output regeneration. E1 is OPTIONAL / USER-SUPPLIED INPUT: obtain the original published table independently and follow [E1 instructions](reproduction/E1_USER_INPUT.md). Missing E1 input skips that comparison without preventing the other plotting/extraction stages. Full-grid table extraction still requires the separate Zenodo CSV overlay.
+From the `v1.0-submission` snapshot root, `python3 reproduction/verify_package.py` checks shipped bytes, paths and source syntax without simulation or output regeneration. E1 is OPTIONAL / USER-SUPPLIED INPUT: obtain the original published table independently and follow [E1 instructions](reproduction/E1_USER_INPUT.md). Missing E1 input skips that comparison without preventing the other plotting/extraction stages. Full-grid table extraction still requires the separate Zenodo CSV overlay.
 
 ## Outputs and limits
 
@@ -31,7 +31,15 @@ Master seed 42; robustness seeds 42, 31415 and 271828; mrg32k3a streams. See [st
 
 ## Citation and availability
 
-[CITATION.cff](CITATION.cff) identifies Seoungjun Lim and Wonhyuk Choi and the unpublished related manuscript. Version is `v1.0-submission`; the actual public release date remains pending. Reserved Zenodo version DOI: `10.5281/zenodo.22994272`. This DOI has been reserved for the `v1.0-submission` archival record and will become registered when the Zenodo record is published. The record is currently unpublished; the concept DOI is not yet available. The full processed E3 CSV (280107771 bytes) is in the separate Zenodo staging overlay. No publication is asserted.
+[CITATION.cff](CITATION.cff) identifies Seoungjun Lim and Wonhyuk Choi and the unpublished related manuscript. Submission snapshot: `v1.0-submission`; archive publication date: 2026-09-27.
+
+Version-frozen Zenodo archival record: https://doi.org/10.5281/zenodo.22994272
+
+All Zenodo versions: https://doi.org/10.5281/zenodo.22994271
+
+The full processed E3 CSV (280107771 bytes) is included in the published Zenodo archive. Cite the specific version DOI for this snapshot; the concept DOI supports discovery across versions.
+
+The `v1.0-submission` tag remains fixed to commit `851937c738c6a9d9c196779cc09492e95bf1ab95`. Main contains post-publication metadata corrections. The supplied manifests/checksums describe the immutable submission snapshot; run the static package verifier in a checkout of `v1.0-submission` or the published archive, not the updated main metadata tree.
 
 ## Third-party material
 
@@ -43,4 +51,4 @@ Wonhyuk Choi, Department of Avionics Engineering, Hanseo University: choiwh@hans
 
 ## Licensing
 
-See [NOTICE](NOTICE) for attribution and [license scope](docs/LICENSE_SCOPE.md) for path coverage. CC BY 4.0 applies to the authors’ original compilation, analysis and documentation to the extent controlled by the authors; cited third-party source material remains subject to its original terms. Later publication snapshot: `v1.0.0`, distinct from this submission snapshot. Future archival citation uses the exact version DOI; a concept DOI is for discovery only.
+See [NOTICE](NOTICE) for attribution and [license scope](docs/LICENSE_SCOPE.md) for path coverage. CC BY 4.0 applies to the authors’ original compilation, analysis and documentation to the extent controlled by the authors; cited third-party source material remains subject to its original terms. Later publication snapshot: `v1.0.0`, distinct from this submission snapshot. Archival citation uses the exact version DOI; the concept DOI is for discovery across versions.

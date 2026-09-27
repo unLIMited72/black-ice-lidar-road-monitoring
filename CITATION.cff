@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this package, cite the related manuscript and the eventual versioned archive. The archive DOI is reserved; publication is pending."
+message: "If you use this package, cite the related manuscript and the published versioned archive."
 type: software
 version: v1.0-submission
 doi: 10.5281/zenodo.22994272
 repository-code: https://github.com/unLIMited72/black-ice-lidar-road-monitoring
-# Reserved version DOI; Zenodo publication and public GitHub release are pending.
+date-released: "2026-09-27"
 license:
   - MIT
   - CC-BY-4.0
