@@ -1,6 +1,6 @@
 # Separating Geometry, Measurement Uncertainty, and Return Observability in LiDAR-Based Black-Ice Road Monitoring: A Simulation Study
 
-Prepared local release package; not yet publicly released. Package version: `v1.0-submission`. Author-controlled software/model is licensed under MIT; author-controlled data, original documentation and assets under CC BY 4.0 with the boundaries in [LICENSE](LICENSE) and [license scope](docs/LICENSE_SCOPE.md). No repository URL or archive DOI exists yet.
+Prepared local release package; not yet publicly released. Package version: `v1.0-submission`. Author-controlled software/model is licensed under MIT; author-controlled data, original documentation and assets under CC BY 4.0 with the boundaries in [LICENSE](LICENSE) and [license scope](docs/LICENSE_SCOPE.md). Repository location prepared for release: https://github.com/unLIMited72/black-ice-lidar-road-monitoring (currently PRIVATE; public release pending).
 
 ## Overview
 
@@ -31,7 +31,7 @@ Master seed 42; robustness seeds 42, 31415 and 271828; mrg32k3a streams. See [st
 
 ## Citation and availability
 
-[CITATION.cff](CITATION.cff) identifies Seoungjun Lim and Wonhyuk Choi and the unpublished related manuscript. Version is `v1.0-submission`; actual release date, DOI and repository URL are omitted because they do not yet exist. The full processed E3 CSV (280107771 bytes) is in the separate Zenodo staging overlay. No publication is asserted.
+[CITATION.cff](CITATION.cff) identifies Seoungjun Lim and Wonhyuk Choi and the unpublished related manuscript. Version is `v1.0-submission`; the actual public release date remains pending. Reserved Zenodo version DOI: `10.5281/zenodo.22994272`. This DOI has been reserved for the `v1.0-submission` archival record and will become registered when the Zenodo record is published. The record is currently unpublished; the concept DOI is not yet available. The full processed E3 CSV (280107771 bytes) is in the separate Zenodo staging overlay. No publication is asserted.
 
 ## Third-party material
 
