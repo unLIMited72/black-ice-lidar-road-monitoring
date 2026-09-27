@@ -1,0 +1,29 @@
+function cfg = simulation_parameters()
+%SIMULATION_PARAMETERS Checkpoint 01 settings; all sensor noise is assumed.
+cfg.root = fileparts(fileparts(mfilename('fullpath')));
+cfg.project_root = fileparts(cfg.root);
+cfg.heights_m = [0.5 1 1.5 2 3];
+cfg.thicknesses_mm = [0 2 5 10 20 30];
+cfg.angles_deg = 0:10:70;
+cfg.sigmas_mm = [2.5 5 10 20];
+cfg.pilot_H_m = 1.6; % New normal-height convention, NOT paper geometry.
+cfg.pilot_N = 1000; % Per class, per cell, per reference mode.
+cfg.convergence_N = [100 500 1000 5000];
+cfg.master_seed = 42;
+cfg.pfa_points = [0.01 0.05 0.10]; % Pilot analysis points, not requirements.
+cfg.reference_modes = ["R0" "R1"];
+cfg.ci_alpha = 0.05;
+cfg.family_alpha = 0.01; % Bonferroni exact-binomial gate for entire pilot.
+cfg.geometry_atol_m = 1e-9; % Numerical tolerance, NOT sensor accuracy.
+cfg.figure_dpi = 300;
+cfg.example_t_mm = 10;
+cfg.example_angle_deg = 30;
+cfg.example_sigma_mm = 10;
+cfg.figure_pfa = 0.05;
+cfg.model = 'black_ice_lidar_geometry';
+cfg.model_file = fullfile(cfg.root,'models',[cfg.model '.slx']);
+cfg.raw = fullfile(cfg.root,'results','raw');
+cfg.processed = fullfile(cfg.root,'results','processed');
+cfg.figures = fullfile(cfg.root,'results','figures');
+cfg.parameter_version = 'checkpoint01_level01_v1';
+end

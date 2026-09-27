@@ -1,0 +1,11 @@
+Experiment,Scope,Size,Trials per class
+E1,Published table reassessment,9 rows shared by 2 papers,Not applicable
+E2,Analytical/Simulink geometry,240 combinations,Deterministic
+E3 pilot,6 thicknesses × 8 angles × 4 SDs × 2 references; H=1.6 m,384 cells,1000
+E3 full,960 base cells × 10 uncertainty variants × 2 references × 7 validity profiles,134400 scenarios,5000
+E4,8 thicknesses × 8 angles × 5 heights,320 rows,Deterministic
+E5 main,E4 grid × 3 SDs × 2 references × 4 surface tiers,7680 scenarios,5000
+E5 link/parameter sensitivity,"Thin layers, two relative returns, three link scales, two mappings",2304 scenarios,5000
+E6,Four thicknesses × eight angles; A0–A4 and four A5 tiers,288 scenarios,5000
+E7,4 thicknesses × 4 angles × 3 SDs × 2 references × 2 uncertainty families × 3 distributions × 2 return states × 2 threshold policies × 3 seeds,6912 evaluations,5000
+E8,Paired E5 S0 versus S1/S2/S3,5760 comparisons,Reuses E5

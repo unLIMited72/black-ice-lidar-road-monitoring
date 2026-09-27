@@ -1,0 +1,8 @@
+Item,Kim et al. (2023) [1],Hong and Choi (2025) [2]
+Publication,"J. Adv. Navig. Technol. 27(6), 865–870","Int. J. Basic Appl. Sci. 14(3), 101–105"
+Device context,LIDAR-Lite v3,LIDAR-Lite v3
+Reported setting,1.6 m distance; 30 mm ice; temperature angle 90°,1.60 m distance; 30 mm ice; temperature angle 90°
+Public temperature table,"Nine rows, −4 to +4 °C",Same nine rows and values
+Table location,p.868; Korean Table 2 / English caption Table 1,p.103; Table 2
+Angle discussion,Simulation over 0–90°,Simulation over 0–90°
+Reproduction limit,Generator and angle data unavailable,Generator and angle data unavailable

@@ -1,0 +1,11 @@
+historical_matlab=24.1.0.3303086 (R2024a) Update 9
+historical_simulink=24.1
+historical_os_family=Windows
+historical_os_edition_build=UNCONFIRMED
+historical_plot_python=UNCONFIRMED
+retained_editorial_numpy=2.5.3 (installed metadata; execution unconfirmed)
+historical_final_pdf_matplotlib=3.11.2 (creator metadata of ten final reference PDFs)
+historical_table_pandas=UNCONFIRMED
+current_packaging_python=3.10.12
+current_packaging_os=Linux 6.8.0-138-generic
+current_matlab=NOT QUERIED OR RUN

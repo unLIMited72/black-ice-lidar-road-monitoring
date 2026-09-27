@@ -1,0 +1,8 @@
+Finding,Evidence,Permitted interpretation,Boundary
+Published shift matches layer scale,E1/E2; Figures 3–4,Geometry-compatible explanation,Original causal mechanism unresolved
+Angle advantage changes with uncertainty,E3/E7; Figures 5/S1,Assumption-dependent detectability,No measured optimal angle
+Height/reference affect the score,E3; Figure 6,Calibration priorities,No reference-drift validation
+Return loss reduces usable attempts,E5/E6; Figures 7–8,Coverage must accompany conditional P_D,Link probabilities uncalibrated
+Same geometry can have different assigned availability,E8; Figure 9,Surface-return sensitivity,No material identification
+Thin-layer displacement is small relative to named scales,E4; Figure S2,Specification-scale comparison,No conversion to noise SD or guaranteed threshold
+Absolute probabilities depend on noise family,E7; Figure S1,Distribution assumption must be reported,Three families do not span all errors

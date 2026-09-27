@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this package, cite the related manuscript and the eventual versioned archive. Identifiers are pending."
+type: software
+version: v1.0-submission
+license:
+  - MIT
+  - CC-BY-4.0
+# Licenses apply to separate author-controlled scopes; see LICENSE and docs/LICENSE_SCOPE.md.
+title: "Separating Geometry, Measurement Uncertainty, and Return Observability in LiDAR-Based Black-Ice Road Monitoring: Reproducibility Package"
+authors:
+  - family-names: Lim
+    given-names: Seoungjun
+    orcid: "https://orcid.org/0009-0004-4911-8285"
+    affiliation: "Department of Avionics Engineering, Hanseo University"
+  - family-names: Choi
+    given-names: Wonhyuk
+    affiliation: "Department of Avionics Engineering, Hanseo University"
+keywords:
+  - black ice
+  - LiDAR
+  - winter-road monitoring
+  - measurement uncertainty
+  - return observability
+  - Monte Carlo simulation
+  - roadside sensing
+preferred-citation:
+  type: unpublished
+  title: "Separating Geometry, Measurement Uncertainty, and Return Observability in LiDAR-Based Black-Ice Road Monitoring: A Simulation Study"
+  authors:
+    - family-names: Lim
+      given-names: Seoungjun
+      orcid: "https://orcid.org/0009-0004-4911-8285"
+    - family-names: Choi
+      given-names: Wonhyuk
+  notes: "Manuscript prepared for Future Transportation; not represented as published or accepted."

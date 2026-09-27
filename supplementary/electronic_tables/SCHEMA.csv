@@ -1,0 +1,137 @@
+file,column,unit,definition
+supp_table_s2_thin_layer.csv,pfa_target,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,threshold,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,false_alarm_count,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,detection_count,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,N_total,integer count or identifier,"Stored attempted/valid/event count, or seed/stream identifier as named; N is per class"
+supp_table_s2_thin_layer.csv,N_valid_dry,integer count or identifier,"Stored attempted/valid/event count, or seed/stream identifier as named; N is per class"
+supp_table_s2_thin_layer.csv,N_valid_ice,integer count or identifier,"Stored attempted/valid/event count, or seed/stream identifier as named; N is per class"
+supp_table_s2_thin_layer.csv,mean_dry,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,std_dry,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,mean_ice,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,std_ice,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,separation,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,d_prime,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,coverage_dry_theory,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,coverage_ice_theory,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,P_FA_all_theory,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,P_D_all_theory,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,physical_invalid_dry,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,physical_invalid_ice,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,validity_index,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,N_valid,integer count or identifier,"Stored attempted/valid/event count, or seed/stream identifier as named; N is per class"
+supp_table_s2_thin_layer.csv,coverage_dry,dimensionless,valid dry / all dry attempts
+supp_table_s2_thin_layer.csv,coverage_ice,dimensionless,valid ice / all ice attempts
+supp_table_s2_thin_layer.csv,coverage,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,valid_rate,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,unknown_rate,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,P_FA,dimensionless,false positives / valid dry returns
+supp_table_s2_thin_layer.csv,P_D,dimensionless,positive ice decisions / valid ice returns
+supp_table_s2_thin_layer.csv,P_FA_all,dimensionless,false positives / all dry attempts
+supp_table_s2_thin_layer.csv,P_D_all,dimensionless,positive ice decisions / all ice attempts
+supp_table_s2_thin_layer.csv,P_FA_theory,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,P_D_theory,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,P_FA_CI_low,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,P_FA_CI_high,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,P_D_CI_low,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,P_D_CI_high,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,P_FA_all_CI_low,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,P_FA_all_CI_high,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,P_D_all_CI_low,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,P_D_all_CI_high,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,coverage_dry_CI_low,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,coverage_dry_CI_high,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,coverage_ice_CI_low,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,coverage_ice_CI_high,dimensionless,Stored interval endpoint; conditional/coverage/overall denominator follows field prefix; not newly computed
+supp_table_s2_thin_layer.csv,conditional_precision_met,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,validity_mode,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,validity_severity,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,pilot_or_final_pfa_target,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,range_warning,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,stage,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,H_m,m,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,t_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,theta_deg,degree,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,sigma0_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,p,dimensionless coefficient or Boolean,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,q,dimensionless coefficient or Boolean,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,reference_mode,categorical / dimensionless; literal identifier as named,R0 ideal; R1 independent noisy reference
+supp_table_s2_thin_layer.csv,surface_enabled,dimensionless coefficient or Boolean,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,kappa,dimensionless,Assumed off-normal loss coefficient multiplying tan(theta)^2 in return_proxy.m; not a thickness-dependent attenuation coefficient
+supp_table_s2_thin_layer.csv,rho_rel,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,Q_scale,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,return_link,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,noise_family,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,threshold_policy,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,seed,integer count or identifier,"Stored attempted/valid/event count, or seed/stream identifier as named; N is per class"
+supp_table_s2_thin_layer.csv,stream_id,integer count or identifier,"Stored attempted/valid/event count, or seed/stream identifier as named; N is per class"
+supp_table_s2_thin_layer.csv,thickness_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,angle_deg,degree,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,sigma_eff_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,sigma_amplification,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,D_A_m,m,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,D_I_m,m,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,delta_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,Q_norm_dry,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,Q_norm_ice,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,specular_penalty,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,P_return_dry,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,P_return_ice,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,P_generic_valid,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,master_seed,integer count or identifier,"Stored attempted/valid/event count, or seed/stream identifier as named; N is per class"
+supp_table_s2_thin_layer.csv,P_overall_detect,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,no_layer_control,dimensionless coefficient or Boolean,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,surface_id,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s2_thin_layer.csv,experiment,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,thickness_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,angle_deg,degree,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,sigma0_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,reference_mode,categorical / dimensionless; literal identifier as named,R0 ideal; R1 independent noisy reference
+supp_table_s3_noise_summary.csv,stress_family,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,noise_family,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,surface_enabled,dimensionless coefficient or Boolean,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,threshold_policy,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,pfa_target,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,PD_seed_mean,dimensionless,mean of three stored seed probabilities
+supp_table_s3_noise_summary.csv,PD_seed_min,dimensionless,minimum across three seeds; not CI
+supp_table_s3_noise_summary.csv,PD_seed_max,dimensionless,maximum across three seeds; not CI
+supp_table_s3_noise_summary.csv,PFA_seed_mean,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,PFA_seed_min,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,PFA_seed_max,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,PD_all_seed_mean,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,PD_theory,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,PFA_theory,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s3_noise_summary.csv,seed_count,integer count or identifier,"Stored attempted/valid/event count, or seed/stream identifier as named; N is per class"
+supp_table_s4_device_scale.csv,D_A_m,m,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,D_I_m,m,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,delta_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,typical_accuracy_scale_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,R_resolution,dimensionless,geometric shift / resolution magnitude; not a probability
+supp_table_s4_device_scale.csv,R_accuracy,dimensionless,geometric shift / stated accuracy magnitude; not a probability
+supp_table_s4_device_scale.csv,R_accuracy_ice_range,dimensionless,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,short_range_nonlinearity_warning,dimensionless coefficient or Boolean,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,accuracy_band_crossing,dimensionless coefficient or Boolean,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,comparison,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,H_m,m,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,thickness_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,angle_deg,degree,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,resolution_scale_mm,mm,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s4_device_scale.csv,source_id,categorical / dimensionless; literal identifier as named,G_p2: Garmin manual page 2; manual not bundled
+supp_table_s4_device_scale.csv,analysis_type,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Reference,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Year,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Sensor / wavelength,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Actual experiment?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Surface classes,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Angle considered?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Distance considered?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Geometry separated?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Measurement uncertainty?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Reference uncertainty?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Dropout / validity?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Surface-return observability?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Monte Carlo?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Coverage reported?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Black-ice specificity control?,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Main limitation,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts
+supp_table_s9_literature.csv,Relation,categorical / dimensionless; literal identifier as named,Literal stored schema field; physical unit given by suffix; model/score generation in research/lib/+blackice and research/scripts

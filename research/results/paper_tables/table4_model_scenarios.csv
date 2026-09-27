@@ -1,0 +1,12 @@
+Component,Variants,Role
+L1,p=q=0,Constant SD baseline
+L2-A,p=0.5/1/2; q=0,Mild/moderate/severe angular stress
+L2-B,p=0; q=0.5/1/2,Range stress with lower clipping
+L2-C,"(p,q)=(0.5,0.5)/(1,1)/(2,2)",Combined stress
+R0 / R1,Exact / independent noisy reference,R1 reference SD equals measurement SD
+V0,No generic dropout,Positivity checks remain active
+V1,"(theta_max,D_max)=(70°,8 m)/(60°,5 m)/(50°,3 m)",Deterministic boundary stress
+V2,lambda=0.15/0.5/1.5,Probabilistic generic stress
+S0–S3,kappa=0/0.1/0.5/1.5,"Main rho=1, n=1, Q0=0.2"
+Return sensitivity,rho=0.5/1; Q0=0.05/0.2/1; rational/exponential,All combinations retained
+Noise robustness,Gaussian; Uniform ±sqrt(3)sigma; Laplace scale sigma/sqrt(2),Equal measurement variance

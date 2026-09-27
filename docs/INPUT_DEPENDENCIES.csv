@@ -1,0 +1,37 @@
+script,referenced_file,resolved_path,status,notes
+research/scripts/export_figures.py,data/paper/paper_temperature_table.csv,research/data/paper/paper_temperature_table.csv,OPTIONAL_USER_INPUT,Guarded; missing E1 skips only the source-dependent stage; see reproduction/E1_USER_INPUT.md
+research/scripts/export_figures.py,results/paper_tables/figure_level2_extract.csv,research/results/paper_tables/figure_level2_extract.csv,PRESENT,Static literal reference; no execution
+research/scripts/export_figures.py,results/processed/checkpoint03_ablation.csv,research/results/processed/checkpoint03_ablation.csv,PRESENT,Static literal reference; no execution
+research/scripts/export_figures.py,results/processed/checkpoint03_device_spec.csv,research/results/processed/checkpoint03_device_spec.csv,PRESENT,Static literal reference; no execution
+research/scripts/export_figures.py,results/processed/checkpoint03_distribution_summary.csv,research/results/processed/checkpoint03_distribution_summary.csv,PRESENT,Static literal reference; no execution
+research/scripts/export_figures.py,results/processed/checkpoint03_observability.csv,research/results/processed/checkpoint03_observability.csv,PRESENT,Static literal reference; no execution
+research/scripts/export_figures.py,results/processed/checkpoint03_specificity_control.csv,research/results/processed/checkpoint03_specificity_control.csv,PRESENT,Static literal reference; no execution
+research/scripts/export_figures.py,results/processed/geometry_analytical_sweep.csv,research/results/processed/geometry_analytical_sweep.csv,PRESENT,Static literal reference; no execution
+research/scripts/generate_manuscript_figures.m,checkpoint03_ablation.csv,research/results/processed/checkpoint03_ablation.csv,PRESENT,Static literal reference; no execution
+research/scripts/generate_manuscript_figures.m,checkpoint03_device_spec.csv,research/results/processed/checkpoint03_device_spec.csv,PRESENT,Static literal reference; no execution
+research/scripts/generate_manuscript_figures.m,checkpoint03_distribution_summary.csv,research/results/processed/checkpoint03_distribution_summary.csv,PRESENT,Static literal reference; no execution
+research/scripts/generate_manuscript_figures.m,checkpoint03_observability.csv,research/results/processed/checkpoint03_observability.csv,PRESENT,Static literal reference; no execution
+research/scripts/generate_manuscript_figures.m,checkpoint03_specificity_control.csv,research/results/processed/checkpoint03_specificity_control.csv,PRESENT,Static literal reference; no execution
+research/scripts/generate_manuscript_figures.m,figure_level2_extract.csv,research/results/paper_tables/figure_level2_extract.csv,PRESENT,Static literal reference; no execution
+research/scripts/generate_manuscript_figures.m,geometry_analytical_sweep.csv,research/results/processed/geometry_analytical_sweep.csv,PRESENT,Static literal reference; no execution
+research/scripts/generate_manuscript_figures.m,paper_temperature_table.csv,research/data/paper/paper_temperature_table.csv,OPTIONAL_USER_INPUT,Guarded; missing E1 skips only the source-dependent stage; see reproduction/E1_USER_INPUT.md
+research/scripts/prepare_manuscript_evidence.py,data/paper/paper_temperature_table.csv,research/data/paper/paper_temperature_table.csv,OPTIONAL_USER_INPUT,Guarded; missing E1 skips only the source-dependent stage; see reproduction/E1_USER_INPUT.md
+research/scripts/prepare_manuscript_evidence.py,figure_level2_extract.csv,research/results/paper_tables/figure_level2_extract.csv,GENERATED_OUTPUT,Output destination; S1 only with user input; not a required extraction input
+research/scripts/prepare_manuscript_evidence.py,manuscript_numerical_claims.csv,research/results/paper_tables/manuscript_numerical_claims.csv,GENERATED_OUTPUT,"Not shipped; generated on deliberate extraction, simulation-only claims"
+research/scripts/prepare_manuscript_evidence.py,results/processed/checkpoint03_ablation.csv,research/results/processed/checkpoint03_ablation.csv,PRESENT,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,results/processed/checkpoint03_device_spec.csv,research/results/processed/checkpoint03_device_spec.csv,PRESENT,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,results/processed/checkpoint03_distribution_spread.csv,research/results/processed/checkpoint03_distribution_spread.csv,PRESENT,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,results/processed/checkpoint03_distribution_summary.csv,research/results/processed/checkpoint03_distribution_summary.csv,PRESENT,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,results/processed/checkpoint03_noise_robustness.csv,research/results/processed/checkpoint03_noise_robustness.csv,PRESENT,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,results/processed/checkpoint03_specificity_control.csv,research/results/processed/checkpoint03_specificity_control.csv,PRESENT,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,results/processed/checkpoint03_test_results.csv,research/results/processed/checkpoint03_test_results.csv,PRESENT,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,results/processed/checkpoint03_thin_layer_results.csv,research/results/processed/checkpoint03_thin_layer_results.csv,PRESENT,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,results/processed/level2_full_e3_results.csv,research/results/processed/level2_full_e3_results.csv,ZENODO OVERLAY,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,results/processed/simulink_geometry_validation.csv,research/results/processed/simulink_geometry_validation.csv,PRESENT,Static literal reference; no execution
+research/scripts/prepare_manuscript_evidence.py,supp_table_s1_published_data.csv,research/results/paper_tables/supp_table_s1_published_data.csv,GENERATED_OUTPUT,Output destination; S1 only with user input; not a required extraction input
+research/scripts/prepare_manuscript_evidence.py,supp_table_s2_thin_layer.csv,research/results/paper_tables/supp_table_s2_thin_layer.csv,GENERATED_OUTPUT,Output destination; S1 only with user input; not a required extraction input
+research/scripts/prepare_manuscript_evidence.py,supp_table_s3_noise_summary.csv,research/results/paper_tables/supp_table_s3_noise_summary.csv,GENERATED_OUTPUT,Output destination; S1 only with user input; not a required extraction input
+research/scripts/prepare_manuscript_evidence.py,supp_table_s4_device_scale.csv,research/results/paper_tables/supp_table_s4_device_scale.csv,GENERATED_OUTPUT,Output destination; S1 only with user input; not a required extraction input
+research/scripts/prepare_manuscript_evidence.py,table5_representative_results.csv,research/results/paper_tables/table5_representative_results.csv,GENERATED_OUTPUT,Output destination; S1 only with user input; not a required extraction input
+research/scripts/prepare_manuscript_evidence.py,table6_ablation.csv,research/results/paper_tables/table6_ablation.csv,GENERATED_OUTPUT,Output destination; S1 only with user input; not a required extraction input
+research/scripts/reproduce_paper_table.m,paper_temperature_transcription.csv,research/data/paper/paper_temperature_transcription.csv,OPTIONAL_USER_INPUT,Schema validated; absent input returns SKIPPED_OPTIONAL_INPUT; no source-specific expected values

@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\caption{Scenario definitions. All non-specification coefficients are assumptions.}\label{tab:4}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+Component & Variants & Role \\
+\midrule
+L1 & p=q=0 & Constant SD baseline \\
+L2-A & p=0.5/1/2; q=0 & Mild/moderate/severe angular stress \\
+L2-B & p=0; q=0.5/1/2 & Range stress with lower clipping \\
+L2-C & (p,q)=(0.5,0.5)/(1,1)/(2,2) & Combined stress \\
+R0 / R1 & Exact / independent noisy reference & R1 reference SD equals measurement SD \\
+V0 & No generic dropout & Positivity checks remain active \\
+V1 & $(\theta_{\max},D_{\max})$=(70\texorpdfstring{\ensuremath{^\circ}}{ degrees},8 m)/(60\texorpdfstring{\ensuremath{^\circ}}{ degrees},5 m)/(50\texorpdfstring{\ensuremath{^\circ}}{ degrees},3 m) & Deterministic boundary stress \\
+V2 & $\lambda$=0.15/0.5/1.5 & Probabilistic generic stress \\
+S0--S3 & $\kappa$=0/0.1/0.5/1.5 & Main $\rho$=1, n=1, $Q_0$=0.2 \\
+Return sensitivity & $\rho$=0.5/1; $Q_0$=0.05/0.2/1; rational/exponential & All combinations retained \\
+Noise robustness & Gaussian; uniform half-width $\sqrt{3}\sigma_{\mathrm{eff}}$; Laplace scale $\sigma_{\mathrm{eff}}/\sqrt{2}$ & Equal measurement variance \\
+\bottomrule
+\end{tabularx}
+\end{table}

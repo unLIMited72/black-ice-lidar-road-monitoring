@@ -1,0 +1,29 @@
+ICE license scope index
+
+This package uses different licenses for distinct author-controlled contributions.
+
+1. Author-controlled software and model: MIT.
+   Terms: LICENSES/MIT.txt
+   Scope: research/config/*.m, research/lib/**/*.m, research/scripts/*.m and
+   *.py, research/tests/*.m, research/models/*.slx, reproduction/verify_package.py
+   and the repository .gitignore configuration.
+
+2. Author-generated simulation data, original documentation and author-created
+   assets: CC BY 4.0, to the extent controlled by the authors.
+   Terms: LICENSES/CC-BY-4.0.txt
+   Detailed path scope and mixed-source boundaries: docs/LICENSE_SCOPE.md
+
+3. Third-party references and underlying source material: NOT RELICENSED.
+   CC BY 4.0 applies to the authors' original compilation, analysis and
+   documentation to the extent controlled by the authors; cited third-party
+   source material remains subject to its original terms.
+
+4. Published numerical transcriptions and their excluded derivatives:
+   NOT DISTRIBUTED. E1 requires independently obtained user-supplied input.
+
+5. MATLAB/Simulink and other external dependencies are not included or
+   relicensed. Obtain them under their respective terms.
+
+This index is not a blanket license over every underlying right. License texts
+retain their own terms and are not themselves relicensed by this index.
+See NOTICE for authorship, attribution and provenance information.

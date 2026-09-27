@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\caption{Executed experiment matrix. Counts exclude repeated threshold rows unless stated. Reused draws are not independent replications.}\label{tab:3}
+\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+Experiment & Scope & Size & Trials per class \\
+\midrule
+E1 & Published table reassessment & 9 rows shared by 2 papers & Not applicable \\
+E2 & Analytical/Simulink geometry & 240 combinations & Deterministic \\
+E3 pilot & 6 thicknesses \ensuremath{\times} 8 angles \ensuremath{\times} 4 SDs \ensuremath{\times} 2 references; H=1.6 m & 384 cells & 1000 \\
+E3 full & 960 base cells \ensuremath{\times} 10 uncertainty variants \ensuremath{\times} 2 references \ensuremath{\times} 7 validity profiles & 134400 scenarios & 5000 \\
+E4 & 8 thicknesses \ensuremath{\times} 8 angles \ensuremath{\times} 5 heights & 320 rows & Deterministic \\
+E5 main & E4 grid \ensuremath{\times} 3 SDs \ensuremath{\times} 2 references \ensuremath{\times} 4 surface tiers & 7680 scenarios & 5000 \\
+E5 link/parameter sensitivity & Thin layers, two relative returns, three link scales, two mappings & 2304 scenarios & 5000 \\
+E6 & Four thicknesses \ensuremath{\times} eight angles; A0--A4 and four A5 tiers & 288 scenarios & 5000 \\
+E7 & 4 thicknesses \ensuremath{\times} 4 angles \ensuremath{\times} 3 SDs \ensuremath{\times} 2 references \ensuremath{\times} 2 uncertainty families \ensuremath{\times} 3 distributions \ensuremath{\times} 2 return states \ensuremath{\times} 2 threshold policies \ensuremath{\times} 3 seeds & 6912 evaluations & 5000 \\
+E8 & Paired E5 S0 versus S1/S2/S3 & 5760 comparisons & Reuses E5 \\
+\bottomrule
+\end{tabularx}
+\end{table}

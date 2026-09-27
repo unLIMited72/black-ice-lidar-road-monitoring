@@ -1,0 +1,12 @@
+Symbol,Definition,Value or role
+"$H,t,\theta$","Perpendicular height, normal thickness, normal-incidence angle",Independent scenario inputs
+"$D_A,D_I$",Dry and ice-top slant ranges,Derived by Equation (1)
+$D_0$,Range normalization,1.6 m; not calibration distance
+$D_{\mathrm{ref}}$,Dry reference measurement,R0 exact; R1 noisy
+"$\sigma_0,\sigma_{\mathrm{eff}}$",Baseline and amplified measurement SD,Assumed; not manufacturer accuracy
+"$p,q$",Angle and range uncertainty exponents,"0, 0.5, 1, or 2 according to family"
+$\lambda$,Generic V2 loss coefficient,"0.15, 0.5, 1.5"
+"$\rho_{\mathrm{rel}},n,\kappa$","Relative return, diffuse exponent, angular penalty","Main 1, 1, and 0/0.1/0.5/1.5"
+"$Q,Q_0$",Dimensionless return proxy and link scale,Main $Q_0=0.2$; sensitivity 0.05/0.2/1
+"$X,\tau,\alpha$","Range score, threshold, nominal null exceedance","$\alpha=0.01,0.05,0.10$"
+"$c_I,P_D,P_{\mathrm{overall}}$","Ice coverage, conditional detection, overall opportunity",Different denominators; Equations (12)–(14)

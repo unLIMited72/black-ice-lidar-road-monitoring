@@ -1,0 +1,34 @@
+ICE reproducibility package
+Authors: Seoungjun Lim and Wonhyuk Choi
+Contact: Wonhyuk Choi, choiwh@hanseo.ac.kr
+
+Copyright (c) Seoungjun Lim and Wonhyuk Choi, for their respective
+copyrightable author-controlled contributions. No copyright creation-year
+history is asserted here.
+
+Author-controlled software/model is licensed under MIT. Author-controlled
+simulation outputs, original compilation/analysis/documentation and assets
+are licensed under CC BY 4.0. See LICENSE and docs/LICENSE_SCOPE.md.
+
+S4 combines author deterministic geometry/ratio calculations with Garmin
+specification facts. G_p2 identifies manual page 2; the manual is not bundled.
+S9 combines bibliographic/source facts with original categorical synthesis and
+source-access limitations. Underlying third-party material is not relicensed.
+Source citations and links are in docs/THIRD_PARTY_REFERENCES.md.
+
+Published numerical observations, the Figure 3/S1 derivatives and mixed
+published-data verification ledgers are excluded. The optional E1 procedure
+requires independently obtained source values. No publisher table layout,
+article PDF or restricted manual is supplied.
+
+The geometry schematic is a project asset. Its original generator is supplied;
+exact final editorial export provenance is incomplete. No publisher image
+input was identified. The reproduction limits remain documented.
+
+Portability adaptations and optional-input guards preserve independent
+scientific computations. Existing project model metadata was sanitized during
+prior preparation; runtime products are not distributed. This package does
+not claim physical validation, material identification or deployment readiness.
+
+Prepared local release package; not yet publicly released. No repository URL,
+archive DOI or publication identifier is asserted.
