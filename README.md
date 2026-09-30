@@ -31,7 +31,11 @@ Master seed 42; robustness seeds 42, 31415 and 271828; mrg32k3a streams. See [st
 
 ## Citation and availability
 
-[CITATION.cff](CITATION.cff) identifies Seoungjun Lim and Wonhyuk Choi and the unpublished related manuscript. Submission snapshot: `v1.0-submission`; archive publication date: 2026-09-27.
+Associated manuscript (unpublished): **Separating Geometry, Measurement Uncertainty, and Return Observability in LiDAR-Based Black-Ice Road Monitoring: A Simulation Study**. Manuscript authors, in order: Seung-Beom Hong (ORCID https://orcid.org/0000-0001-6248-8994); Won-hyuk Choi (ORCID https://orcid.org/0009-0003-0754-2494). Corresponding author: Won-hyuk Choi (choiwh@hanseo.ac.kr).
+
+The top-level software/resource authors in CITATION.cff remain the original artifact creators; preferred-citation identifies the current manuscript authors. Historical resource titles, creator names and the fixed archive retain their original attribution. Manuscript metadata corrections do not change software/data ownership or the archived scientific files.
+
+[CITATION.cff](CITATION.cff) distinguishes resource creators from the unpublished related manuscript. Submission snapshot: `v1.0-submission`; archive publication date: 2026-09-27.
 
 Version-frozen Zenodo archival record: https://doi.org/10.5281/zenodo.22994272
 
@@ -47,7 +51,7 @@ The `v1.0-submission` tag remains fixed to commit `851937c738c6a9d9c196779cc0949
 
 ## Contact
 
-Wonhyuk Choi, Department of Avionics Engineering, Hanseo University: choiwh@hanseo.ac.kr.
+Manuscript corresponding author: Won-hyuk Choi, Department of Avionics, Hanseo University: choiwh@hanseo.ac.kr; ORCID 0009-0003-0754-2494.
 
 ## Licensing
 

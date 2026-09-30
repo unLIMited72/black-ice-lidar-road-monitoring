@@ -30,9 +30,10 @@ preferred-citation:
   type: unpublished
   title: "Separating Geometry, Measurement Uncertainty, and Return Observability in LiDAR-Based Black-Ice Road Monitoring: A Simulation Study"
   authors:
-    - family-names: Lim
-      given-names: Seoungjun
-      orcid: "https://orcid.org/0009-0004-4911-8285"
+    - family-names: Hong
+      given-names: Seung-Beom
+      orcid: "https://orcid.org/0000-0001-6248-8994"
     - family-names: Choi
-      given-names: Wonhyuk
+      given-names: Won-hyuk
+      orcid: "https://orcid.org/0009-0003-0754-2494"
   notes: "Manuscript prepared for Future Transportation; not represented as published or accepted."
